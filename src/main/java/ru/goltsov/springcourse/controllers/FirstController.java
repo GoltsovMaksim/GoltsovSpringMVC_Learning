@@ -31,7 +31,7 @@ public class FirstController {
             case "multiplication" -> a * b;
             case "addition" -> a + b;
             case "substruction" -> a - b;
-            case "division" -> (double) a / (double) b;
+            case "division" -> a / (double) b;
             default -> 0;
         };
         model.addAttribute("return","Hello! Answer is " + result);
